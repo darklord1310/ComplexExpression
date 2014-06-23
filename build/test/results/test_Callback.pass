@@ -1,0 +1,20 @@
+---
+:source:
+  :path: test
+  :file: test_Callback.c
+:successes:
+- :test: test_module_generator_needs_to_be_implemented
+  :line: 14
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 1
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'addInt(3 , 5) = 8 '
+- 'addInt(9.4 , 2.67) = 12.070000 '
+- 'ptrFuncAdd(3 , 5) = 8 '
+- 'ptrFuncAdd(9.4 , 2.67) = 12.070000 '

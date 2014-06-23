@@ -1,0 +1,39 @@
+---
+:source:
+  :path: test
+  :file: test_ComplexExpression.c
+:successes:
+- :test: test_complexExpression_explore_integer
+  :line: 18
+  :message: ''
+- :test: test_complexExpression_explore_float
+  :line: 29
+  :message: ''
+- :test: test_joinStrings_should_join_2_strings_together
+  :line: 40
+  :message: ''
+- :test: test_mulStrings_given_superman_and_3_should_return_Superman_x3
+  :line: 49
+  :message: ''
+- :test: test_assignString_given_Spiderman_with_some_webs_should_copy_it_to_destination
+  :line: 58
+  :message: ''
+- :test: test_complexExpression_explore_strings
+  :line: 67
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 6
+  :passed: 6
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'complexExpression(4,18) = 76 '
+- '_complexExpression(4,18) = 76 '
+- 'complexExpression(4.123,18.567) = 276087790236739120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000 '
+- '_complexExpression(4.123,18.567) = 80.674744 '
+- 'Hello Bananaman '
+- 'Superman Superman Superman  '
+- Spideman with some webs
+- "_complexExpression(\"Batman,3) : Batman Batman Batman \x03 "
